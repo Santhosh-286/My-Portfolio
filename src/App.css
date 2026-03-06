@@ -637,7 +637,7 @@ div#project {
 .project-show {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
 }
 
@@ -648,7 +648,7 @@ div#project {
   position: relative;
   overflow: hidden;
   transition: transform 0.4s ease;
-  height: 300px;
+  height: 350px;
 }
 .project img {
   width: 100%;
@@ -846,6 +846,9 @@ textarea.item {
     width: 100%;
     flex-direction: column;
   }
+  .project{
+    height: 380px;
+  }
 }
 /*  Tablets / Medium Devices*/
 @media (max-width: 768px) {
@@ -945,6 +948,9 @@ textarea.item {
   div#project {
     padding: 20px 5%;
   }
+  .project {
+    height: 400px;
+  }
   .contact {
     padding: 20px 5%;
   }
@@ -1000,5 +1006,8 @@ textarea.item {
     display: flex;
     align-items: center;
     gap: 0;
+  }
+  .project {
+    height: 415px;
   }
 }

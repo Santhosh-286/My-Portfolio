@@ -464,7 +464,7 @@ export default function App() {
 
                   <button>
                     <a
-                      href="https://santhosh-286.github.io/first-project/"
+                      href="https://js-main-project.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -491,7 +491,7 @@ export default function App() {
                   </p>
                   <button>
                     <a
-                      href="https://santhosh-286.github.io/Quiz-app/"
+                      href="https://quiz-app-ten-flax-63.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -517,7 +517,7 @@ export default function App() {
                   </p>
                   <button>
                     <a
-                      href="https://santhosh-286.github.io/Quiz-app/"
+                      href="https://santhosh-286.github.io/first-project/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -527,7 +527,7 @@ export default function App() {
                 </div>
               </div>
             </div>
-            <div className="project">
+            {/* <div className="project">
               <img src={assets.project_1} alt="project" />
 
               <div className="overlay">
@@ -548,7 +548,7 @@ export default function App() {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
