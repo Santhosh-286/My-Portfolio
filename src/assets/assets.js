@@ -4,6 +4,7 @@ import project_3 from "./Project_Ecom.png";
 import project_4 from "./Project_Quiz_App.png";
 import project_5 from "./Project_First_Pro.png";
 import my_img from "./Portfolio_img.jpg";
+import resume from "./Santhosh_Resume.pdf";
 
 const assets = {
   project_1,
@@ -12,6 +13,7 @@ const assets = {
   project_4,
   project_5,
   my_img,
+  resume,
 };
 
 export default assets;

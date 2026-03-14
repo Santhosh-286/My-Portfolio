@@ -203,7 +203,11 @@ export default function App() {
                   </a>
                 </button>
                 <button className="resume">
-                  <a href="" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={assets.resume}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Resume
                     <FontAwesomeIcon icon={faDownload} />
                   </a>
@@ -223,7 +227,7 @@ export default function App() {
             </div>
             <div className="right">
               <h2 className="abt">About Me</h2>
-              <h1 className="abt">Let's Interoduce myself</h1>
+              <h1 className="abt">Let's Introduce MySelf</h1>
               <p className="para">
                 I'm Santhosh, a MERN Full Stack Developer from Coimbatore. I
                 completed my full-stack development training at SDLC
