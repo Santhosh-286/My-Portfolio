@@ -13,16 +13,8 @@ import assets from "./assets/assets";
 
 import SkillsSection from "./SkillsSection";
 import Tab from "./Tab";
-// import {
-//   faGithub,
-//   faInstagram,
-//   faLinkedin,
-// } from "@fortawesome/free-brands-svg-icons";
-export default function App() {
-  useEffect(() => {
-    document.title = "My Portfolio";
-  }, []);
 
+export default function App() {
   const [activeSection, setActiveSection] = useState("hero-section");
 
   useEffect(() => {
@@ -203,11 +195,7 @@ export default function App() {
                   </a>
                 </button>
                 <button className="resume">
-                  <a
-                    href={assets.resume}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={assets.resume} rel="noopener noreferrer" download>
                     Resume
                     <FontAwesomeIcon icon={faDownload} />
                   </a>
@@ -320,7 +308,7 @@ export default function App() {
                 </div>
               </div>
               <button className="resume">
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href={assets.resume} rel="noopener noreferrer" download>
                   Resume
                   <FontAwesomeIcon icon={faDownload} />
                 </a>
