@@ -456,7 +456,7 @@ export default function App() {
 
                   <button>
                     <a
-                      href="https://ecom-site-wine.vercel.app/"
+                      href="https://js-project-eight-sand.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
